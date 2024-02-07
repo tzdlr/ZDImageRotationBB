@@ -11,7 +11,6 @@ if(!defined("IN_MYBB"))
 }
 
 $plugins->add_hook('global_intermediate', 'fetchImageRandomly');
-$plugins->add_hook('global_end', 'fetchImageRandomly');
 
 function zdimagerotation_info()
 {
@@ -21,7 +20,7 @@ function zdimagerotation_info()
 		"website"		=> "https://znapdev.de",
 		"author"		=> "ZnapShot",
 		"authorsite"	=> "https://znapdev.de",
-		"version"		=> "1.0",
+		"version"		=> "1.0.1",
 		"guid" 			=> "",
 		"codename"		=> "zdimagerotation",
 		"compatibility" => "18*"

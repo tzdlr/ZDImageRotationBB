@@ -17,4 +17,5 @@ Generates an img path with a randomyl chosen image from an existing folder
 
 # Changelogs
 
+1.0.1 - Removed unnecessary hook to lower performance usage
 1.0.0 - Initial Release
